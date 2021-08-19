@@ -1,0 +1,12 @@
+header{
+    h1{
+        text-align-last: center;
+        font-family: $fontTitulo;
+        font-weight: 300;
+        font-size: 1rem;
+        color: $colorLetra;
+        letter-spacing: 3px;
+        margin: 100px;
+        @include animation(intermitente,2.5s,infinite);
+    }
+} 
